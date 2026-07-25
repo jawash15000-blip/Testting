@@ -1,0 +1,6 @@
+{
+  "name": "Kernel Monitor",
+  "description": "Real-time kernel & hardware monitor for Android (MTK & Generic sysfs) with root access",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

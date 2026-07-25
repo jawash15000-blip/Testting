@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- CPU Outer Frame -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M34,34h40v40h-40z"
+        android:strokeWidth="2"
+        android:strokeColor="#00E5FF" />
+    <!-- Inner Chip Core -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M40,40h28v28h-28z" />
+    <!-- Pulse Line across center -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,54 L44,54 L48,46 L52,62 L56,50 L60,54 L84,54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00E676"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- CPU Pin lines Top & Bottom -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M40,26v8 M48,26v8 M54,26v8 M60,26v8 M68,26v8 M40,74v8 M48,74v8 M54,74v8 M60,74v8 M68,74v8"
+        android:strokeWidth="1.8"
+        android:strokeColor="#00E5FF" />
+    <!-- CPU Pin lines Left & Right -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M26,40h8 M26,48h8 M26,54h8 M26,60h8 M26,68h8 M74,40h8 M74,48h8 M74,54h8 M74,60h8 M74,68h8"
+        android:strokeWidth="1.8"
+        android:strokeColor="#00E5FF" />
+</vector>
